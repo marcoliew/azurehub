@@ -5,7 +5,8 @@ include {
 }
 
 terraform {
-  source = "../../../modules/appgw"
+  #source = "../../../modules/appgw"
+  source = "https://github.com/marcoliew/terragruntsplitmodule.git//appgw?ref=v1.0.0"
 }
 
 inputs = {
